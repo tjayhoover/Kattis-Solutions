@@ -1,15 +1,8 @@
 import sys
-stripped = []
+
 lines = sys.stdin.readlines()
-#with open("input.txt", "r") as file:
- #   lines = file.readlines()
 
-for l in lines:
-    l = l.strip()
-
-for l in lines:
-    l = l.strip()
-    stripped.append(l.strip())
+stripped = [l.strip() for l in lines]
 
 two_numbers = stripped[0].split()
 FSL = int(two_numbers[0])
