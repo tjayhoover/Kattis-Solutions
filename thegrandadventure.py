@@ -1,14 +1,9 @@
 import sys
 
 lines = sys.stdin.readlines()
-#with open("input1.txt", "r") as file:
- #   lines = file.readlines()
-
 lines = [l.strip() for l in lines]
 
-num_ad = lines[0]
-
-lines.remove(lines[0])
+num_ad = lines.pop(0)
 
 for l in lines:
     bool = True
@@ -20,43 +15,37 @@ for l in lines:
         elif x in ['$', '|', '*']:
             backpack.append(x)
         elif x == "t":
-            if len(backpack) > 0:
+            if len(backpack):
                 insense = backpack.pop()
                 if insense != "|":
                     everyone_happy = False
                     print("NO")
                     break
-                else:
-                    continue
-            elif len(backpack) == 0:
+            elif not len(backpack):
                 everyone_happy = False
                 print("NO")
                 bool = False
                 break
         elif x == "j":
-            if len(backpack) > 0:
+            if len(backpack):
                 jewel = backpack.pop()
                 if jewel != "*":
                     everyone_happy = False
                     print("NO")
                     break
-                else:
-                    continue
-            elif len(backpack) == 0:
+            elif not len(backpack):
                 everyone_happy = False
                 print("NO")
                 bool = False
                 break
         elif x == "b":
-            if len(backpack) > 0:
+            if len(backpack):
                 money = backpack.pop()
                 if money != "$":
                     everyone_happy = False
                     print("NO")
                     break
-                else:
-                    continue
-            elif len(backpack) == 0:
+            elif not len(backpack):
                 everyone_happy = False
                 print("NO")
                 bool = False
