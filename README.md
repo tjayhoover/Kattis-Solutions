@@ -9,3 +9,5 @@ Each file is named after the ID of the problem on Kattis. Here is a list of prob
 4. The Grand Adventure (https://open.kattis.com/thegrandadventure): thegrandadventure.py
 5. Judging Troubles (https://open.kattis.com/judging): judging.py
 6. Purple Rain (https://open.kattis.com/purplerain): purplerain.cpp
+7. Piece of Cake! (https://open.kattis.com/pieceofcake2): pieceofcake2.cpp
+8. Shopaholic (https://open.kattis.com/shopaholic): shopaholic.cpp
