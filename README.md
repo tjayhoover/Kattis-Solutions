@@ -7,3 +7,5 @@ Each file is named after the ID of the problem on Kattis. Here is a list of prob
 2. Even Up Solitaire (https://open.kattis.com/problems/evenup): evenup.cpp
 3. Postal Delivery (https://open.kattis.com/problems/delivery): delivery.cpp
 4. The Grand Adventure (https://open.kattis.com/thegrandadventure): thegrandadventure.py
+5. Judging Troubles (https://open.kattis.com/judging): judging.py
+6. Purple Rain (https://open.kattis.com/purplerain): purplerain.cpp
