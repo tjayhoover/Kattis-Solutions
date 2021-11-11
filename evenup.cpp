@@ -3,7 +3,6 @@
 #include <stack>
 using namespace std;
 
-
 int main() {
     int sz = 0;
     vector<int> cards;
