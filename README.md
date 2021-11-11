@@ -5,3 +5,4 @@ Each file is named after the ID of the problem on Kattis. Here is a list of prob
 
 1. Hanging Out on the Terrace (https://open.kattis.com/problems/hangingout): hangingout.py
 2. Even Up Solitaire (https://open.kattis.com/problems/evenup): evenup.cpp
+3. Postal Delivery (https://open.kattis.com/problems/delivery): delivery.cpp
